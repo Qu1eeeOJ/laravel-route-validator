@@ -1,0 +1,25 @@
+{
+    "name": "qu1eeeoj/laravel-route-validator",
+    "description": "A simple library for checking route parameters for laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Qu1eeeoj\\LaravelRouteValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danil Pozdnyakov",
+            "email": "qu1eeeoj@yandex.ru"
+        }
+    ],
+    "extra": {
+        "providers": [
+            "Qu1eeeoj\\LaravelRouteValidator\\Providers\\RouteValiadatorServiceProvider"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4"
+    }
+}
